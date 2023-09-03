@@ -1,18 +1,15 @@
 package com.javaunit3.springmvc.model;
 
-import org.hibernate.SessionFactory;
-
 import javax.persistence.*;
 
 @Entity
 @Table(name = "votes")
-public class VoteEntity
-{
+public class VoteEntity {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "voter_Name")
+    @Column(name = "voter_name")
     private String voterName;
 
     public Integer getId() {
