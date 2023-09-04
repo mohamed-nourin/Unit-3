@@ -5,9 +5,9 @@
     <session-factory>
         <!-- JDBC Database connection settings -->
         <property name="connection.driver_class">org.postgresql.Driver</property>
-        <property name="connection.url">jdbc:postgresql://db.lzptqibicpvarzhylwym.supabase.coda:5432/postgres</property>
+        <property name="connection.url">jdbc:postgresql://db.lzptqibicpvarzhylwym.supabase.co:5432/postgres</property>
         <property name="connection.username">postgres</property>
-        <property name="connection.password">1996</property>
+        <property name="connection.password">Ilovetocode1</property>
         <!-- JDBC connection pool settings ... using built-in test pool -->
         <property name="connection.pool_size">1</property>
         <!-- Select our SQL dialect -->
